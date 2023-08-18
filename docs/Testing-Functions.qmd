@@ -47,3 +47,21 @@ expect_type(mean_range(mtcars), "double")
 # testing that the first output in the vector to always be <= the second output
 expect_true(mean_range(mtcars)[1] <= mean_range(mtcars)[2])
 ```
+
+```{r}
+source(here::here("src", "name_cart.R"))
+```
+
+```{r}
+name_cart(food = "enchiladas", animal = "hawk")
+```
+
+```{r}
+source(here::here("src", "cork_oak_growth.R"))
+```
+
+```{r}
+height_t2(height_t1 = 20, t1 = 4, t2 = 19)
+```
+
+## Sourcing Scripts
